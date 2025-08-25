@@ -1,0 +1,18 @@
+.banner-wrapper {
+  height: 74vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  height: 74vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-wrapper img {
+  max-width: 716px;
+}
+.container {
+  height: unset;
+}

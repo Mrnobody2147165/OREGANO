@@ -1,0 +1,38 @@
+:root {
+  --blue: #34495e;
+  --white: #ecf0f1;
+}
+.container {
+  max-width: 1147px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.left-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.left-bg {
+  height: 101vh;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: -1;
+  width: 50%;
+}
+.right-bg {
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  z-index: -1;
+  width: 50%;
+}
+.right-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
